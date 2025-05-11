@@ -27,6 +27,6 @@ export default async function dip() {
             break
     }
 
-    corrida(carro, terminal.gray)
+    corrida(carro, terminal.green)
     await TerminalUtil.esperarEnter()
 }
